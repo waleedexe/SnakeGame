@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardProvider", "BoardProvi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTests", "AcceptanceTests\AcceptanceTests.csproj", "{5CAF8700-F86C-407A-A32E-708565788425}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenProviderTests", "TokenProviderTests\TokenProviderTests.csproj", "{F906636F-0FC1-4024-BAFA-5F2D0914C9C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{5CAF8700-F86C-407A-A32E-708565788425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CAF8700-F86C-407A-A32E-708565788425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CAF8700-F86C-407A-A32E-708565788425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F906636F-0FC1-4024-BAFA-5F2D0914C9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F906636F-0FC1-4024-BAFA-5F2D0914C9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F906636F-0FC1-4024-BAFA-5F2D0914C9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F906636F-0FC1-4024-BAFA-5F2D0914C9C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{95602C5B-9128-4539-8066-B952D30A8404} = {DA3688ED-F24D-474C-B06F-EE13EE814A80}
 		{5CAF8700-F86C-407A-A32E-708565788425} = {DA3688ED-F24D-474C-B06F-EE13EE814A80}
+		{F906636F-0FC1-4024-BAFA-5F2D0914C9C6} = {DA3688ED-F24D-474C-B06F-EE13EE814A80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77D66170-8B7E-4AAB-B71F-D1B6DA1B3F92}
