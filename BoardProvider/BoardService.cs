@@ -26,5 +26,10 @@ namespace BoardProvider
     {
       _tokenService.MoveToken(_token, diceNumber);
     }
+
+    public int GetTokenPosition()
+    {
+      return _tokenService.GetPosition(_token);
+    }
   }
 }

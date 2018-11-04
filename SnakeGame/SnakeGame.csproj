@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BoardProvider\BoardProvider.csproj" />
+    <ProjectReference Include="..\DiceProvider\DiceProvider.csproj" />
   </ItemGroup>
 
 </Project>

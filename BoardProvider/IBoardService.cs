@@ -5,5 +5,6 @@
     void AddToken();
     void MoveToken(int diceNumber);
     void NewGame();
+    int GetTokenPosition();
   }
 }

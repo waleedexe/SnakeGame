@@ -21,5 +21,15 @@
 
       token.Move(spaces);
     }
+
+    public int GetPosition(Token token)
+    {
+      if (token == null)
+      {
+        throw new System.ArgumentNullException(nameof(token));
+      }
+
+      return token.GetPosition();
+    }
   }
 }
