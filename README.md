@@ -4,11 +4,11 @@ Game is based on the first feature in [Snakes and Ladders Kata](https://agilekat
 
 Simply run the tests and check results.
 
-Assumptions:
+**Assumptions:**
 - Single player.
 
 
-Pending: 
+**Pending:** 
 - IoC registrations.
 - Proper disposable services.
 - Better isolation.
