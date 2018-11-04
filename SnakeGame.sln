@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceProvider", "DiceProvide
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceProviderTests", "DiceProviderTests\DiceProviderTests.csproj", "{95602C5B-9128-4539-8066-B952D30A8404}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenProvider", "TokenProvider\TokenProvider.csproj", "{FF6FDA21-206B-45AF-A450-DF0283BCF99E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardProvider", "BoardProvider\BoardProvider.csproj", "{6534441F-54B0-4161-BE63-E3E77531A6F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{95602C5B-9128-4539-8066-B952D30A8404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95602C5B-9128-4539-8066-B952D30A8404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95602C5B-9128-4539-8066-B952D30A8404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6FDA21-206B-45AF-A450-DF0283BCF99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6FDA21-206B-45AF-A450-DF0283BCF99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6FDA21-206B-45AF-A450-DF0283BCF99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6FDA21-206B-45AF-A450-DF0283BCF99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6534441F-54B0-4161-BE63-E3E77531A6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6534441F-54B0-4161-BE63-E3E77531A6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6534441F-54B0-4161-BE63-E3E77531A6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6534441F-54B0-4161-BE63-E3E77531A6F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

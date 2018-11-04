@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BoardProvider\BoardProvider.csproj" />
+    <ProjectReference Include="..\TokenProvider\TokenProvider.csproj" />
   </ItemGroup>
 
 </Project>
