@@ -1,4 +1,5 @@
-﻿using TokenProvider;
+﻿using System;
+using TokenProvider;
 
 namespace BoardProvider
 {
@@ -6,6 +7,7 @@ namespace BoardProvider
   {
     private readonly ITokenService _tokenService;
     private Token _token;
+    public event EventHandler OnWinEvent;
 
     public BoardService(ITokenService tokenService)
     {
@@ -25,6 +27,12 @@ namespace BoardProvider
     public void MoveToken(int diceNumber)
     {
       _tokenService.MoveToken(_token, diceNumber);
+
+      if (_token.IsWinner())
+      {
+        // This is normally an message event raised into Game class.
+        OnWinEvent?.Invoke(this, null);
+      }
     }
 
     public int GetTokenPosition()

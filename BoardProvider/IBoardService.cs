@@ -1,4 +1,6 @@
-﻿namespace BoardProvider
+﻿using System;
+
+namespace BoardProvider
 {
   public interface IBoardService
   {
@@ -6,5 +8,6 @@
     void MoveToken(int diceNumber);
     void NewGame();
     int GetTokenPosition();
+    event EventHandler OnWinEvent;
   }
 }
